@@ -12,7 +12,9 @@
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
-
+	.hero-banner__button-group{
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 /* sm <= Medium (md) */
